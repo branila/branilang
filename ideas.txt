@@ -1,0 +1,54 @@
+--- Syntax ---
+
+// Unindexed for loops
+for 0..10 {
+  ...
+}
+
+// Indexed for loops
+for i : 0..10 {
+  ...
+}
+
+// While loops
+while a < 10 {
+  ...
+}
+
+// Infinite loops
+loop {
+  ...
+}
+
+// Functions
+fn foo() {
+  ...
+}
+
+// If statements
+if a < 10 {
+  ...
+} else if a < 20 {
+  ...
+} else {
+  ...
+}
+
+// Match statements
+match a {
+  0 => {
+    ...
+  }
+
+  1 => {
+    ...
+  }
+
+  _ => {
+    ...
+  }
+}
+
+--- Types ---
+
+// Work in progress...
